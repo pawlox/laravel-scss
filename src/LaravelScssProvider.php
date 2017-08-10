@@ -16,7 +16,7 @@ class LaravelScssProvider extends ServiceProvider
     {
         //Register the Starting Tag
         Blade::directive('scss', function () {
-            return "<?php echo (new Leafo\ScssPhp\Compiler)->compile(\"";//$scssCompiler->compile($scss);
+            return "<?php echo (new Leafo\ScssPhp\Compiler)->compile(\"";
         });
         //Register the Ending Tag
         Blade::directive('endscss', function () {
