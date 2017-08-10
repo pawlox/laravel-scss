@@ -1,0 +1,21 @@
+{
+    "name": "pawlox/laravel-scss",
+    "description": "Adds Blade directive for compiling SCSS to CSS in templates",
+    "type": "library",
+    "keywords": ["scss", "sass", "laravel", "blade"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paweł Marciniak",
+            "email": "pawmarci@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pawlox\\LaravelScss\\": "src/"
+        }
+    },
+    "require": {
+        "leafo/scssphp": "0.6.7"
+    }
+}
